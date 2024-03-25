@@ -1,0 +1,82 @@
+@charset "UTF-8";
+/* CSS Document */
+body {background-color: darkslategrey;}
+
+/* Image CSS */
+img {width: 25%;
+	display: block;
+	margin-left: auto;
+	margin-right:auto}
+
+/* Heading CSS */
+h1 {
+	color: chartreuse;
+	text-align: center;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+}
+
+h2 {}
+
+/* Paragraph CSS */
+p{
+	color: chartreuse;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	text-align: center;
+	margin-top:100px;
+	margin-bottom:100px;
+	margin-left: 80px;
+	margin-right: 150px;
+}
+
+/* Links CSS */
+a{
+	text-align: center;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	display: block;
+	background-color: navajowhite;
+	padding: 8px;
+}
+/* unvisited */
+a:link{
+	color: ghostwhite;
+}
+
+/* visited link */
+a:visited {
+	color: darkolivegreen;
+}
+
+/* as link is pressed */
+a:active {
+	color: antiquewhite;
+}
+
+/* hovering over the link */
+a:hover {
+	color: black;
+}
+
+/* NAV Bar */
+ul {
+	list-style-type: none;
+		margin: 0;
+	padding: 0;
+	position: absolute;
+	width: 150%;
+	border: 2px solid darkslategrey;
+	background-color: darkslategrey;
+	height: 10%;
+	overflow: hidden;
+}
+
+li{text-align: center;
+border-bottom: 2px solid #555;
+float: left;}
+
+li a{
+	display: block;
+	color: white;
+	padding: 8px 16px;
+	text-decoration: none;
+	text-align: center;
+}
