@@ -1,0 +1,137 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 200px auto 200px;
+    grid-template-rows: auto;
+    grid-template-areas: 
+      "navbar navbar navbar"
+      "sidebar posts sidebar-right";
+    gap: 20px;
+    padding: 20px;
+}
+
+.navbar {
+    grid-area: navbar;
+    background-color: #FF5700;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+	align-items: center;
+}
+
+.search-bar {
+    width: 50%;
+    padding: 8px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+}
+
+.home-link {
+	text-decoration: none;
+	color: #FF5700;
+	background-color: white;
+	padding: 8px 16px;
+	border-radius: 10px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.home-link:hover {
+	background-color: #FFE5CC;
+}
+
+.sidebar {
+    grid-area: sidebar;
+    background-color: #F6F6F6;
+    padding: 10px;
+}
+
+.posts {
+    grid-area: posts;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    justify-content: center;
+}
+
+.post {
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	margin-bottom: 20px;
+}
+
+.user-info {
+    margin-bottom: 10px;
+	display: flex;
+	align-items: center;
+}
+
+.profile-image {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+
+.post-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.post-link:hover {
+    text-decoration: underline;
+}
+
+.sidebar-right {
+	grid-area: sidebar-right;
+	background-color: #F6F6F6;
+	padding: 10px;
+}
+
+.sidebar ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+.sidebar a {
+	text-decoration: none;
+	color: darkslategray;
+}
+
+.comment-bar {
+	margin-top: 20px;
+	text-align: center;
+}
+
+.comment-input{
+	width: 70%;
+	padding: 8px;
+	border-radius: 20px;
+	border: 1px solid #ccc;
+	outline: none;
+}
+	
+.comment-button {
+	padding: 8px 16px;
+	border-radius: 20px;
+	border: none;
+	background-color: #FF5700;
+	color: white;
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
+	
+.comment-button:hover {
+	background-color: #FF814A;
+}
+	
+	

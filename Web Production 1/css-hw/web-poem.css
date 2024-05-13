@@ -1,0 +1,165 @@
+@charset "UTF-8";
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: darkslategray;
+    animation-name: graytoyellow;
+    animation-duration: 10.04s;
+    animation-direction: forward;
+    animation-iteration-count: infinite;
+	color: ivory;
+    font-family: 'Abril Fatface', cursive;
+	letter-spacing: 2px;
+	font-size: 36pt;
+    text-align: center;
+}
+	
+	p {margin: 0px}
+	
+	#center {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+		}
+	
+	@keyframes graytoyellow {
+    from {background-color: darkslategray;}
+    to {background-color: darkseagreen;}
+	to {background-color: chartreuse;}
+}
+	
+	@keyframes fadeInOut {
+		0% {
+			opacity: 0;
+		}
+		45% {
+			opacity: 1;
+		}
+		100% {
+			opacity: 0;
+			}
+		from {text-decoration-color: ghostwhite;}
+		to {text-decoration-color: black;}
+		}
+		
+	@keyframes flash 
+	{
+	from, 0%,
+  	to {opacity: 1;}
+	25%, 75% {opacity: 0;}
+}	
+	#flash {
+		animation-name: flash;
+		animation-duration: .01s;
+		animation-iteration-count: 100;
+	}
+
+	.text1 {
+		margin-top: 1%;
+		opacity: 0;
+		animation-name: fadeInOut;
+		animation-delay: 1s;
+		animation-duration: 5s;
+		z-index: 10;
+		animation-iteration-count: infinite;
+	}
+	.text2 {
+		margin-top: 1%;
+		opacity: 0;
+		animation-name: fadeInOut;
+		animation-delay: 5s;
+		animation-duration: 5s;
+		z-index: 10;
+		animation-iteration-count: infinite;
+	}
+	.text3 {
+		margin-top: 1%;
+		opacity: 0;
+		animation-name: fadeInOut;
+		animation-delay: 8s;
+		animation-duration: 5s;
+		z-index: 10;
+		animation-iteration-count: infinite;
+	}
+	.text4 {
+		margin-top: 1%;
+		opacity: 0;
+		animation-name: fadeInOut;
+		animation-delay: 13s;
+		animation-duration: 5s;
+		z-index: 10;
+		animation-iteration-count: infinite;
+	}
+	.text5 {
+		margin-top: 1%;
+		opacity: 0;
+		animation-name: fadeInOut;
+		animation-delay: 18s;
+		animation-duration: 5s;
+		z-index: 10;
+		animation-iteration-count: infinite;
+	}
+	.text6 {
+		margin-top: 1%;
+		opacity: 0;
+		animation-name: fadeInOut;
+		animation-delay: 24s;
+		animation-duration: 5s;
+		z-index: 10;
+		animation-iteration-count: infinite;
+	}
+	.text7 {
+		margin-top: 1%;
+		opacity: 0;
+		animation-name: fadeInOut;
+		animation-delay: 28s;
+		animation-duration: 5s;
+		z-index: 10;
+		animation-iteration-count: infinite;
+	}
+	.text8 {
+		margin-top: 1%;
+		opacity: 0;
+		animation-name: fadeInOut;
+		animation-delay: 33s;
+		animation-duration: 5s;
+		z-index: 10;
+		animation-iteration-count: infinite;
+	}
+	.text9 {
+		margin-top: 1%;
+		opacity: 0;
+		animation-name: fadeInOut;
+		animation-delay: 38s;
+		animation-duration: 5s;
+		z-index: 10;
+		animation-iteration-count: infinite;
+	}
+	.text10 {
+		margin-top: 1%;
+		opacity: 0;
+		animation-name: fadeInOut;
+		animation-delay: 43s;
+		animation-duration: 5s;
+		z-index: 10;
+		animation-iteration-count: infinite;
+	}
+	.text11 {
+		margin-top: 1%;
+		opacity: 0;
+		animation-name: fadeInOut;
+		animation-delay: 48s;
+		animation-duration: 15s;
+		z-index: 7.5;
+		animation-iteration-count: infinite;
+	}
+
+
+
+
+
+	
+
